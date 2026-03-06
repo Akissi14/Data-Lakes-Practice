@@ -8,7 +8,9 @@ requires-python = ">=3.10"
 dependencies = [
     "pandas>=2.0",
     "scikit-learn>=1.3",
-    "numpy>=1.24"
+    "numpy>=1.24",
+    "numba",        # Ajout pour le TP2
+    "boto3"         # Ajout pour LocalStack
 ]
 
 [tool.uv]
